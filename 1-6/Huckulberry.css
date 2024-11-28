@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: plum;
+}
+
+.nav ul{
+    display: flex;
+    margin-left: 600px;
+    list-style: none;
+}
+
+.nav ul li{
+    margin-top: 10px;
+}
+
+.nav ul li a{
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    transition: transform 3s ease-in;
+}
+
+.nav ul li a:hover{
+    color: blue;
+    transform: translateY(10px);
+}
+
+.container{
+    background-color: white;
+    width: 100%;
+    height: 50vh;
+    border-bottom:3px solid blue;
+    overflow: hidden;
+}
+
+.huckle{
+    width: 400px;
+    height: 200px;
+    margin-top: 70px;
+    font-size: 17px;
+    margin-left: 300px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.huckle h1{
+    margin-left: 10px;
+}
+
+.para{
+    margin-left: 10px;
+}
+
+.huckle em{
+    color: green;
+    font-weight: bold;
+}
+
+.wealth{
+    width: 100%;
+    height: 70vh ;
+    background-color: gray;
+    border-top: 5px solid lightgray;
+}
+
+.kak{
+    width: 800px;
+    height: 300px;
+    border: 2px solid white;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.head{
+    position:absolute;
+    background-color: rgb(221, 221, 67);
+    height: 40px;
+    width: 400px;
+    border-bottom: 5px solid goldenrod;
+    border-radius: 2px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.head h2{
+    margin-top: 5px;
+}
+
+.operat{
+    width: 790px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.graph{
+    margin-top: 80px;
+    width:700px ;
+    height: 200px;
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 1.5;
+}

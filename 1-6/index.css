@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin:0px;
+    border: none;
+    font-family: "Lato", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 1170px;
+    background: rgb(241, 239, 239);
+}
+
+.nav{
+    display: flex;
+    width: 1300px;
+    height:63px;
+    justify-content: space-between;
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.nav h1 img{
+    width: 150px;
+    height: 39px;
+}
+
+.icon{
+    color: blue;
+}
+
+.nav ul{
+    display: flex;
+    margin: 2px;
+    margin-left: 700px;
+}
+
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+    transition: transform 3s;
+}
+
+.nav ul li{
+    padding: 10px;
+    list-style: none;
+    text-decoration-style: none;
+    color: black;
+    text-decoration: none;
+    transition: transform 3s;
+}
+
+.nav ul li:hover{
+    color: blue;
+    transform: translateY(10px);
+}
+
+.nav ul li a:hover{
+    color: blue;
+}
+
+.nav button{
+    height: 41px;
+    width: 91px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.line{
+    border-color: gray;
+    color: gray;
+    border: 1px solid gray;
+}
+
+.content{
+    width: 892px;
+    height: 845px;
+    display: flex;
+    position: relative;
+    justify-self: center;
+    left: 262px;
+    top: 186px;
+}
+
+.panel-1{
+    width: 580px;
+    height: 795px;
+    position: absolute;
+    left: 0;
+}
+
+.content h4{
+    width: 867px;
+    height: 17px;
+    top: 828px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    left: 287px;
+    margin-left: 287px;
+    justify-self: center;
+    margin-top: 822px;
+}
+
+.check{
+    width: 578px;
+    height: 80px;
+    top: 227px;
+    margin-top: 41px;
+}
+
+.check h1{
+    margin-left: 40px;
+}
+
+.section{
+    width: 578px;
+    height: 221px;
+}
+
+.section h3 span{
+    margin-left: 40px;
+    font-size: 35px;
+}
+
+.section h3 .titl{
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: -2px;
+}
+
+.input{
+    line-height: 2;
+    margin-left: 40px;
+    display: flex;
+}
+
+input{
+    color: lightgrey;
+}
+
+#first-name{
+    width: 200px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+#last-name{
+    width: 200px;
+    height: 30px; 
+}
+
+.edge{
+    margin-left: -430px;
+    margin-top: 30px;
+}
+
+#E-mail{
+    width: 290px;
+    height: 30px;
+}
+
+.panel-1{
+    background-color: white;
+    border: 2px solid whitesmoke;
+}
+
+.panel-1 hr{
+    border: 1px solid lightgray;
+}
+
+.section-2{
+    width: 580px;
+    height: 154px;
+}
+
+.chek span{
+    font-size: 35px;
+}
+
+.chek .material-symbols-outlined{
+    margin-left: 40px;
+}
+
+.input input{
+    background-color: lightgrey;
+}
+
+.inp{
+    line-height: 2;
+    margin-left: 40px;
+}
+
+.inp label{
+    font-size: 15px;
+}
+
+.inp input{
+    width: 500px;
+    background-color: lightgrey;
+    color: white;
+    height: 30px;
+}
+
+.button{
+    width: 483px;
+    height: 146.1px;
+    margin-left: 40px;
+}
+
+.buto{
+    width: 483px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    background-color: green;
+}
+
+.button h5{
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.button h5 span em{
+    text-decoration: underline;
+}
+
+.button h5 span strong{
+    margin-left: -180px;
+}
+
+.button h6{
+    text-align: center;
+    background-color: grey;
+    width: 92px;
+    font-size: 9px;
+    height: 20.1px;
+    border-radius: 3px;
+    margin-left: 200px;
+    margin-top: 34px;
+    color: white;
+}
+
+.button h6 em{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.panel-2{
+    width: 892px;
+    color: white;
+    background-color:rgb(70, 70, 216);
+    height: 795px;
+}
+
+.con{
+    width:231px;
+    height: 610px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.sec{
+    width: 231px;
+    height: 152px;
+    color: white;
+}
+
+sup{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+}
+
+sub{
+    font-size: 30px;
+}
+
+.con h6{
+    font-size: 70px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    width: 250px;
+}
+
+.con p{
+    font-size: 20px;
+}
+
+.sec-2{
+    width: 170px;
+    height: 96px;
+    align-items: center;
+}
+
+.con ul{
+    display:block;
+    text-align: justify;
+    width: 200px; 
+}
+
+.sec-2 ul li{
+    list-style: none;
+    line-height: 1.5;
+}
+
+.con .icon{
+    margin-left: -30px;
+    color: white;
+    font-size: 20px;
+}
+
+.con .title{
+    font-size: 20px;
+}
+
+.con .ok{
+    font-size: 20px;
+}
+
+.con .oks{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.con hr{
+    margin-left: -0.5px;
+    color: white;
+    border: 1px solid white;
+    width: 231px;
+}
+
+.sec-4{
+    width: 229px;
+    height: 196px;
+}
+
+.con .kk{
+    font-weight: 300;
+    font-size:20px;
+}
+
+.con img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+}
+
+.profile p{
+    margin: 10px;
+    font-weight: 300;
+}

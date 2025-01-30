@@ -1,0 +1,1264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: webkit=fill=available;
+    background-color: #060606;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: 118vh;
+    background-image: linear-gradient(rgba(7, 7, 7, 0.4),rgba(0,0,0,0.40));
+    background-position: center;
+    background-size: center;
+}
+
+.container video{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.navbar{
+    width: 100%;
+    height: 64px;
+    display: flex;
+}
+
+.navbar h1{
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+.icon ion-icon{
+    color: white;
+}
+
+.hed{
+    margin-top: 5px;
+    width: 206px;
+    height: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 26px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.bar{
+    width: 1146px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bars{
+    display: flex;
+}
+
+.bar ul {
+    display: flex;
+    padding: 8px;
+    align-content: center;
+}
+
+.bar ul li{
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.bar ul li a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.resea{
+    width: 123px ;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.con{
+    width: 93px ;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.tech{
+    width:153px ;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.disc{
+    width: 113px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.about{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.titl{
+    color: white;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.search{
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.search ion-icon{
+    color: white;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.star{
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.main-container{
+    width: 1205px;
+    height: 5033px;
+    margin-left: 72px;
+    position: relative;
+}
+
+@media(min-aspect-ratio: 16/9){
+    .container video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.news{
+    width: 1205px;
+    height: 100px;
+    margin-top: 120px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.new{
+    width: 608px;
+    height: 100px;
+}
+
+.label{
+    width: 608px;
+    height: 54px;
+    font-size: 46px;
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.update{
+    width: 608px;
+    height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.view{
+    width: 159px;
+    height: 100px;
+}
+
+button{
+    width: 141px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    background-color: transparent;
+    color: blue;
+    font-size: 19px;
+}
+
+button:hover{
+    border: 2px solid blue;
+}
+
+.veos{
+    width: 843px;
+    height: 353px;
+    margin-top: 140px;
+    margin-left: 253px;
+}
+
+.veo{
+    width: 843px;
+    height: 127px;
+    text-align: center;
+}
+
+.veo h2{
+    font-size: 109.28px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.cap{
+    width: 616px;
+    height: 48px;
+    margin-left: 114px;
+    text-align: center;
+}
+
+.cap p{
+    font-size: 28px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.lear{
+    width: 135px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 24px;
+    margin-left: 353px;
+}
+
+.lear button{
+    border-radius: 50px;
+    margin-top: -2px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.pict{
+    width: 1205px;
+    height: 471px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.one{
+    width: 369px;
+    height: 471px;
+    border-radius: 10px;
+    margin-right: 38px;
+    border: 1px solid lightgray;
+}
+
+.one img{
+    width: 369px;
+    height: 208px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.text{
+    width: 368px;
+    height: 158px;
+}
+
+.text h5{
+    width: 321px;
+    margin-left: 34px;
+    margin-top: 24px;
+    font-size: 16px ;
+    font-weight: 100;
+}
+
+.text p{
+    width: 321px;
+    height: 65px; 
+    font-size: 20px;
+    margin-left: 34px;
+    margin-top: -10px;
+}
+
+.AI{
+    width: 321px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 8px;
+    margin-left: 34px;
+}
+
+.nov{
+    width: 368px;
+    height: 73px;
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nov h6{
+    margin-top: 13px;
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.cont ion-icon{
+    color: blue;
+    margin-top: 13px;
+    margin-left: 150px;
+    font-size: 24px;
+    position: absolute;
+}
+
+.ones{
+    width: 369px;
+    height: 471px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.ones img{
+    width: 369px;
+    height: 208px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.deep{
+    width: 1205px;
+    height: 650px;
+    border-radius: 20px;
+    background-image: url(four.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+}
+
+.ped{
+    width: 616px;
+    height: 260px;
+    margin-top: 195px;
+    margin-left: 295px;
+    position: absolute;
+}
+
+.ped h5{
+    width: 616px;
+    height: 16px;
+    font-size: 16px;
+    color: white;
+    margin-top: 36px;
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.gm{
+    width: 616px;
+    height: 112px;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+.scrap{
+    width: 616px;
+    height: 29px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 24px;
+}
+
+.deep button{
+    width: 137px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    color: blue;
+    margin-top: 564px;
+    margin-left: 534px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nolo{
+    width: 843px;
+    height: 214px;
+    margin-top: 180px;
+    margin-left: 181px;
+}
+
+.lo{
+    width: 843px;
+    height: 56px;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+.gie{
+    width: 616px;
+    height: 36px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 100;
+    margin-left: 114px;
+    margin-top: 36px;
+    color: #5f6368;
+}
+
+.tton{
+    width:616px;
+    height: 50px;
+    margin-left: 114px;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.tton button{
+    width: 190px;
+    height: 50px;
+    background-color: #ffffff;
+    color: blue;
+    font-size: 16px;
+}
+
+.ture{
+    width: 1205px;
+    height: 650px;
+    background-image: url(five.png);
+    background-size: cover;
+    background-position: center;
+    border: 8px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+.astra{
+    width: 482px;
+    height: 220px;
+    margin-top: 215px;
+    margin-left: 361px;
+    position: absolute;
+}
+
+.pro{
+    width: 482px;
+    height: 96px;
+    font-size: 83px;
+    text-align: center;
+    color: white;
+    margin-top: 36px;
+    text-align: center;
+}
+
+.kal{
+    width: 482px;
+    height: 28px;
+    color: white;
+    margin-top: 24px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.on{
+    width: 137px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 534px;
+    position: absolute;
+    margin-top: 564px;
+}
+
+.non{
+    font-size: 16px;
+    color: #174ea6;
+    background-color: white;
+}
+
+.non:hover{
+    border: 5px solid rgb(95, 196, 230);
+}
+
+.gem{
+    width: 1205px;
+    height: 485px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.gemini{
+    width: 579px;
+    height: 485px;
+    border: 1px solid lightgray; 
+    border-radius: 10px;   
+}
+
+.ini{
+    width: 578px;
+    height: 325px;
+    background-image: url(six.png);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.geminn{
+    width: 578px;
+    height: 85px;
+}
+
+.gin{
+    width: 530px;
+    height: 28px;
+    margin-left: 24px;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.nin{
+    width: 530px;
+    height: 28px;
+    margin-left: 24px;
+    margin-top: 8px;
+    color: gray;
+}
+
+.sig{
+    width: 72px;
+    height: 76px;
+    margin-left: 503px;
+    border-bottom-right-radius: 10px;
+    align-content: center;
+}
+
+.sig ion-icon{
+    font-size: 22px;
+    color: blue;
+    margin-left: 20px;
+}
+
+.geminit{
+    width: 579px;
+    height: 485px;
+    border: 1px solid lightgray; 
+    border-radius: 10px;    
+    margin-left: 42px; 
+}
+
+.init{
+    width: 578px;
+    height: 325px;
+    background-image: url(seven.png);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.syal{
+    width: 1205px;
+    height: 391px;
+    display: flex;
+    margin-top: 80px;
+}
+
+.magi{
+    width: 369px;
+    height: 391px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-right: 48px;
+}
+
+.agi{
+    width: 369px;
+    height: 208px;
+    border-top-right-radius:10px;
+    border-top-left-radius: 10px;
+    background-image: url(eight.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid lightgray;
+    border-bottom: none;
+}
+
+.image3{
+    width: 369px;
+    height: 108px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hree{
+    width: 321px;
+    height: 28px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.tent{
+    width: 321px;
+    height: 24px;
+    font-size: 17px;
+    color: gray;
+    margin-top: 8px;
+    margin-left: 24px;
+}
+
+.gis{
+    font-size: 20px;
+    margin-left: 298px;
+    color: blue;
+}
+
+.gis ion-icon{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 22px;
+}
+
+.agr{
+    width: 369px;
+    height: 208px;
+    border-top-right-radius:10px;
+    border-top-left-radius: 10px;
+    background-image: url(nine.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid lightgray;
+    border-bottom: none;
+}
+
+.agt{
+    width: 369px;
+    height: 208px;
+    border-top-right-radius:10px;
+    border-top-left-radius: 10px;
+    background-image: url(ten.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid lightgray;
+    border-bottom: none;
+}
+
+.maga{
+    width: 369px;
+    height: 391px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.abga{
+    width: 843px;
+    height: 164px;
+    margin-top: 180px;
+    margin-left: 181px;
+}
+
+.res{
+    width: 843px;
+    height: 56px;
+    text-align: center;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.ail{
+    width: 616px;
+    height: 72px;
+    font-size: 24px;
+    margin-left: 114px;
+    text-align: center;
+    color: grey;
+    margin-top: 36px;
+    font-weight: 100;
+}
+
+.rps{
+    width: 1205px;
+    height: 509px;
+    margin-top: 80px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.sps{
+    width: 578px;
+    height: 509px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.bos{
+    width: 578px;
+    height: 325px;
+    background-image: url(eleven.png);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid lightgray;
+    border-bottom: none;
+}
+
+.dos{
+    width: 578px;
+    height: 108px;
+}
+
+.hos{
+    width: 530px;
+    height: 28px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.los{
+    width: 530px;
+    height: 48px;
+    margin-left: 24px;
+    color: grey;
+}
+
+.bis{
+    width: 72px;
+    height: 76px;
+    margin-left: 505px;
+    font-size: 22px;
+    border-bottom-right-radius: 10px;
+}
+
+.bis ion-icon{
+    margin-top: 5px;
+    margin-left: 20px;
+    color: blue;
+}
+
+.spd{
+    width: 578px;
+    height: 509px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-left: 48px;
+}
+
+.bod{
+    width: 572px;
+    height: 325px;
+    background-image: url(twelve.png);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.main-concole{
+    width: 1205px;
+    height: 352px;
+    display: flex;
+    margin-top: 80px;
+}
+
+.control{
+    width: 369px;
+    height: 352px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 48px;
+}
+
+.control h3{
+    width: 369px;
+    height: 132px;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.concole{
+    width: 787px;
+    height: 367px;
+    color: white;
+}
+
+.concole button{
+    width: 787px;
+    height: 56px;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+    display: flex;
+    border: 1px solid lightgray;
+    margin-bottom: 6px;
+}
+
+.concole button:hover{
+    box-shadow: 1px 1px 1px 0.5px lightgrey;
+}
+
+.criptic{
+    display: flex;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.criptic img{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 28px;
+    height: 28px;
+    margin-top: 6px;
+}
+
+.criptic .alk{
+    margin-top: 10px;
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+}
+
+.subcidiary{
+    width: 100%;
+    height: 571px;
+    margin-top: 78px;
+    background-color: #202124;
+}
+
+.links{
+    width: 1205px;
+    height: 97px;
+    margin-left: 72px;
+}
+
+hr{
+    color:white;
+    font-size: 0.5px;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.webs{
+    width: 578px;
+    height: 48px;
+    margin-top: 24px;
+    display: flex;
+    position: absolute;
+}
+
+.foll{
+    width: 69px;
+    height: 36px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.foll p{
+    margin-top: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.tott{
+    width: 485px;
+    height: 48px;
+    display: flex;
+}
+
+.twit{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: center;
+    cursor: pointer;
+    align-content: center;
+    margin-right: 8px;
+    color: black;
+}
+
+.twit:hover{
+    background-color: gray;
+}
+
+.twit a img{
+    width: 20px;
+    height: 20px;
+    margin-left: 7px;
+    margin-top: 5px;
+    color: white;
+    
+}
+
+.insta{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: center;
+    cursor: pointer;
+    align-content: center;
+    color:black;
+    margin-right: 8px;
+}
+
+.insta:hover{
+    background-color: gray;
+}
+
+.insta ion-icon{
+    font-size: 24px;
+    margin-left: 7px;
+    margin-top: 5px;
+    color: white;
+}
+
+.linin{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: center;
+    cursor: pointer;
+    align-content: center;
+    margin-right: 8px;
+}
+
+.linin:hover{
+    background-color: gray;
+}
+
+.linin a img {
+    width: 25px;
+    height: 25px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+.youtu{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: center;
+    align-content: center;
+    cursor: pointer;
+    margin-right: 8px;
+    color: black;
+}
+
+.youtu:hover{
+    background-color: gray;
+}
+
+.youtu ion-icon{
+    font-size: 24px;
+    margin-left: 7px;
+    margin-top: 5px;
+    color: white;
+}
+
+.gith{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.gith:hover{
+    background-color: gray;
+}
+
+.gith ion-icon{
+    font-size: 25px;
+    margin-left: 7px;
+    margin-top: 5px;
+    color: white;
+}
+
+.footer-links{
+    width: 1205px;
+    height: 355px;
+    margin-left: 72px;
+    display: flex;
+}
+
+.tents{
+    width: 369px;
+    height: 266px;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.tents h6{
+    width: 369px;
+    height: 24px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list{
+    width: 369px;
+    height: 226px;
+    margin-top: 16px;
+}
+
+.tents li{
+    width: 369px;
+    height: 31px;
+    margin-top: 8px;
+    color: lightgrey;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tents li:hover{
+    color: white;
+}
+
+.ents{
+    width: 369px;
+    height: 266px;
+    margin-top: 40px;
+    list-style: none;
+    margin-left: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ents h6{
+    width: 369px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ents li{
+    width: 369px;
+    height: 31px;
+    margin-top: 8px;
+    color: lightgrey; 
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ents li:hover{
+    color: white;
+}
+
+.mail{
+    width: 369px;
+    height: 266px;
+    margin-top: 40px;
+    margin-left: 48px;
+}
+
+.mail h4{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lists{
+    width: 369px;
+    height: 56px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #060606;
+    margin-top: 16px;
+}
+
+.input{
+    display: flex;
+}
+
+.input a img{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.lists input{
+    width: 328px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color:transparent;
+    margin-left: 22px;
+    margin-right: 16px;
+}
+
+.lists p{
+    width: 369px;
+    height: 72px;
+    margin-top: 16px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.15px;
+    line-height: 1.5;
+    color: #9aa0a6;
+}
+
+.lists a button{
+    width: 108px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 32px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1.5px solid white;
+    color: white;
+}
+
+.lists a button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.google-links{
+    width: 1205px;
+    height: 119px;
+    margin-left: 72px;
+    text-align: justify;
+    text-decoration: none;
+    display: flex;
+}
+
+.google-links h2{
+    margin-top: 40px;
+    width: 74px;
+    height: 25px;
+}
+
+.google-links h2 a{
+    font-family: "Google Sans Text", Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #9aa0a6;
+    text-decoration: none;
+}
+
+.google-links h2 a:hover{
+    color: white;
+}
+
+.sub-links{
+    width: 1082px;
+    height: 71px;
+    margin-left: 48px;
+    margin-top: 46px;
+}
+
+.sub-links ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: #9aa0a6;
+}
+
+.sub-links ul li {
+    margin-right: 16px;
+    color: #9aa0a6;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+.sub-links ul li a{
+    font-size: 16px;
+    color:#9aa0a6;
+    text-decoration: none;
+}
+
+.sub-links ul li a:hover{
+    color: white;
+}
+
+/* For screens smaller than 768px (e.g., smartphones) 
+@media (max-width: 768px) {
+    .navbar h1 {
+        font-size: 1rem;
+    }
+
+    .hed h1{
+        width: 100px;
+        font-size: 11px;
+    }
+    .container video{
+        width: 100%;
+        height: auto;
+    }
+
+    .about{
+        width: 28px;
+        height: 25px;
+    }
+
+    .titl{
+        font-size: 12px;
+    }
+
+    .con{
+        width: 65px;
+        height: 25px;
+        margin-top: -1px;
+        margin-right: -10px;
+    }
+
+    .veos h2 {
+        font-size: 1.5rem;
+    }
+
+    .veos p {
+        font-size: 0.8rem;
+    }
+
+    .veos button {
+        font-size: 0.8rem;
+        padding: 8px 16px;
+    }
+
+    .star img {
+        width: 40px;
+    }
+}*/

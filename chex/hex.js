@@ -36,3 +36,14 @@ function resetColors() {
         display.style.backgroundColor = '#FFFFFF';
     });
 }
+
+// Function to toggle the visibility of the content div
+document.getElementById('alchemize').addEventListener('click', function() {
+    var dropdown = document.getElementById('dropdown');
+    if (dropdown.style.display === 'none' || dropdown.style.display === '') {
+        dropdown.style.display = 'block';
+    } else {
+        dropdown.style.display = 'none';
+    }
+});
+

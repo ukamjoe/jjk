@@ -7,26 +7,68 @@
     <link rel="stylesheet" href="hex.css">
 </head>
 <body>
-    <div class="nav">
-        <div class="titl">
-            <img src="ColorAlchemy logo in SVG format.png" alt="">
-            <h1>ColorAlchemy</h1>
-        </div>
+    <div class="main">
+        <div class="nav">
+            <div class="titl">
+                <img src="images/backin.png" alt="">
+                <h1>ColorAlchemy</h1>
+            </div>
+    
+            <div class="navi">
+                <button class="log">Log-in</button>
+                <button class="Sign">Sign-in</button>
+            </div>
+        </div>    
 
-        <div class="navi">
-            <button class="log">Log-in</button>
-            <button class="Sign">Sign-in</button>
-        </div>
-    </div>
+        <div class="main-contan">
+            <div class="title">
+                <h1>
+                    Welcome <br> to <br> ColorAlchemy
+                </h1>
+                <small>"Giving you variety"</small>
+            </div>
 
-    <div id="container">
-        <button onclick="generateHexCodes()">Generate Hex Codes</button>
-        <button onclick="resetColors()">Reset Colors</button>
-        <div id="content">
-            <div class="colorDisplay" id="colorDisplay1">#FFFFFF</div>
-            <div class="colorDisplay" id="colorDisplay2">#FFFFFF</div>
-            <div class="colorDisplay" id="colorDisplay3">#FFFFFF</div>
-            <div class="colorDisplay" id="colorDisplay4">#FFFFFF</div>
+            <div class="slide">
+                <img class="one" src="images/hain.png" alt="">
+                <img class="two" src="images/mixin.png" alt="">
+                <img class="three" src="images/multin.png" alt="">
+                <img class="four" src="images/whin.png" alt="">
+            </div>
+        </div>
+        
+        <div id="container">
+            <button id="alchemize">Alchemize</button>
+            <div id="dropdown" class="dropdown-content">
+                <div id="content">
+                    <div class="colorDisplay" id="colorDisplay1">
+                        <div class="label">
+                            #FFFFFF
+                        </div>
+                    </div>
+
+                    <div class="colorDisplay" id="colorDisplay2">
+                        <div class="label">
+                            #FFFFFF
+                        </div>
+                    </div>
+
+                    <div class="colorDisplay" id="colorDisplay3">
+                        <div class="label">
+                            #FFFFFF
+                        </div>
+                    </div>
+
+                    <div class="colorDisplay" id="colorDisplay4">
+                        <div class="label">
+                            #FFFFFF
+                        </div>
+                    </div>
+
+                </div>
+
+                <button onclick="generateHexCodes()">Generate Hex Codes</button>
+                <button onclick="resetColors()">Reset Colors</button>
+            </div>
         </div>
     </div>
     <script src="hex.js"></script>

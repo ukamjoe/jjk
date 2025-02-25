@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+*{
+    margin: 0;
+    border: none;
+}
+
+
+.hero-section{
+    width: 100%;
+    height: 1024px;
+    background-color: white;
+}
+
+.nav{
+    width: 1,150px;
+    height: 44px;
+    margin-top: 12px;
+    margin-left: 72.545px;
+    margin-right: 72.545px;
+    display: flex;
+    gap: 140px;
+}
+
+.navi{
+    margin-top: -2px;
+}
+
+.nav ul{
+    display: flex;
+    width: 504px;
+    height: 24px;
+    text-decoration: none;
+}
+
+.nav ul li{
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li a span{
+    color: blue;
+}
+
+.navs{
+    display: flex;
+    width: 250px;
+    height: 44px;
+}
+
+.navs ul{
+    margin-top: -1px;
+}
+
+.navs ul li a{
+    font-size: 16px;
+}
+
+.navs a button{
+    width: 144px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.frame-1{
+    width: 948px;
+    height: 389px;
+    margin-top: 112px;
+    margin-left: 146px;
+}
+
+.frame-1 h1{
+    font-family: Gilroy-Bold;
+    font-size: 48px;
+}
+
+.section-1{
+    width: 948px;
+    height: 313px;
+    margin-left: 106px;
+    text-align: center;
+}
+
+.vector{
+    width: 948px;
+    height: 200px;   
+}
+
+.vector h1{
+    line-height: 1.8;
+    margin-top: -1px;
+}
+
+.vector img{
+    width: 173.63px;
+    height: 19.91px;
+    margin-top: -20px;    
+}
+
+.section-1 h1 em{
+    color: blue;
+}
+
+.para{
+    width: 781px;
+    height: 90px; 
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.para p{
+    margin-top: 20px;
+}
+
+.sign{
+    width: 282px;
+    height: 44px;
+    margin-left: 440px;
+    margin-top: 30px;
+}
+
+.sign span button{
+    background: #0065FE;
+    width: 142px;
+    height: 44px;
+    border-radius: 20px;
+    margin-right: 30px;
+    color: white;
+}
+
+.group-2 img{
+    margin-left: 300px; 
+    width: 833px;
+    height: 336.57px; 
+    margin-top:50px;
+}
+
+.group-3{
+    width: 100%;
+    margin-left: 30px ;
+    height: 93px;
+}
+
+.desktop-10{
+    width: 100%;
+    height: 982px;
+}
+
+.frame-2{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.one{
+    width: 337px;
+    height: 96px;
+    margin: 40px;
+    margin-left: 100px;
+}
+
+.one em{
+    color: blue;
+}
+
+.num{
+    width: 709px;
+    height: 100px;
+    gap: 72px;
+    margin: 40px;
+    display: flex;
+}
+
+.act{
+    width: 258px;
+    height: 100px;
+    display: flex;
+}
+
+.acti{
+    width: 80px;
+    height: 68px;
+    line-height: 1.5;
+}
+
+.acti .head{
+    font-size: 32px;
+}
+
+.acti .foot{
+    font-size: 16px;
+}
+
+.frame-5{
+    width: 123px;
+    height: 98px;
+    line-height: 1.5;
+    margin-left: 50px;
+}
+
+.frame-5 .head{
+    font-size: 32px;
+}
+
+.frame-5 .foot{
+    font-size: 16px;
+}
+
+.frame-11{
+    width: 346px;
+    height: 100px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.frame-6{ 
+    width: 133px;
+    height: 100px;
+    line-height: 1.5;
+}
+
+.frame-6 .head{
+    font-size: 32px;
+}
+
+.frame-6 .foot{
+    font-size: 16px;
+}
+
+.frame-7{
+    width: 123px;
+    height: 68px;
+    margin-left: 80px;
+}
+
+.frame-7 .head{
+    font-size: 32px;
+}
+
+.frame-7 .foot{
+    font-size: 16px;
+}
+
+.frame-03{
+    width: 1200.1px;
+    height: 504px;    
+    margin-top: 128px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.frame-31{
+    width: 398.1px;
+    height: 256px;
+}
+
+.fram{
+    width: 398.1px;
+    height: 48px;
+}
+
+.fram {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.fram em{
+    color: blue;
+    font-weight: bolder;
+}
+
+.frame-31 p{
+    width: 370px;
+    height: 192px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.frame-02{
+    width: 708px;
+    height: 504px;
+    margin-left: 90px;
+}
+
+.frame-09{
+    width: 708px;
+    height: 220px;
+    display: flex;
+}
+
+.group-6{
+    width: 340px;
+    height: 220px;
+}
+
+.group-6 img{
+    width: 56px;
+    height: 56px;    
+}
+
+.frame-05{
+    width: 340px;
+    height: 124px;
+    margin-top: 33px;
+    line-height: 1.5;
+}
+
+.frame-05 h3{
+    font-size: 32px;
+}
+
+.frame-05 p{
+    font-size: 16px;
+}
+
+.frame-97{
+    width: 340px;
+    height: 220px;
+    margin-left: 23px;
+}
+
+.frame-96{
+    width: 340px;
+    height: 115px;
+    margin-top: 33px;
+    line-height: 1.5;
+}
+
+.frame-96 h3{
+    font-size: 32px;
+}
+
+.frame-96 p{
+    font-size: 16px;
+}
+
+.frame-70{
+    width: 708px;
+    height: 220px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.frame-98{
+    width: 340px;
+    height: 220px;
+}
+
+.frame-98 img{
+    width: 56px;
+    height: 56px;
+}
+
+.frame-00{
+    width: 340px;
+    height: 220px;
+    margin-left: 28px;
+}
+
+.frame-71{
+    width: 340px;
+    height: 124px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.frame-71 h3{
+    font-size: 32px;
+}
+
+.desktop-1{
+    width: 100%;
+    height: 1073px;
+}
+
+.frame-13{
+    width: 576.1px;
+    height: 108px;
+    margin-top: 42px;
+    margin-left: 532px;    
+    border: 2px solid black;
+}
+
+.frame-13 img{
+    width: 6px;
+    height: 48px;
+    border: 5px 0px 0px 0px;
+    opacity: 0px;    
+}
+
+.frame-73{
+    width: 560px;
+    height: 108px;
+    float: right;
+    text-align: center;
+    line-height: 1.5;
+    border: 2px solid red;
+}
+
+.frame-73 h3{
+    font-size: 40px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.frame-73 p{
+    font-size: 16px;
+    width: 556px;
+    height: 52px; 
+    margin-left: -10px;   
+}
+
+.group-9{
+    width: 1088px;
+    height: 627px;
+    margin-top: 78px;
+    margin-left: 276px;
+    border: 2px solid blue;    
+}
+
+.desktop-010{
+    width: 279px;
+    height: 355px;
+    margin-top: 104px;
+    left: 176px;
+    padding: 24px 98px 45px 87px;
+    border-radius: 10px;   
+    text-align: center;
+    border: 2px solid red; 
+}
+
+.desktop-010 h4{
+    width: 60px;
+    height: 32px;
+    margin-top: 0px;
+    font-size: 24px;
+    margin-left: 5px; 
+}
+
+.frame-112{
+    width: 194px;
+    height: 320px;
+    margin-top: 10px;
+    margin-left: 47px;
+    gap: 16px;    
+    border: 2px solid green;
+}
+
+.frame-705{
+    width: 194px;
+    height: 88px;
+}
+
+.frame-705 h5{
+    font-size: 40px;
+    text-align: left;
+}
+
+.frame-705 p{
+    font-size: 20px;
+    text-align: left;
+}

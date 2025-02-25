@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+*{
+    margin: 0;
+    border: none;
+}
+
+.container{
+    background-color: #FFFFFf;
+    width: 100%;
+    display: inline-flex;
+    height: 840px;
+}
+
+.content{
+    width: 460px;
+    height: 275px;
+    margin-top: 205px;
+    line-height: 2;
+    margin-left: 140px;
+}
+
+.content img{
+    width: 77.33px;
+    height: 80px;
+    top: 205px;
+    left: 140px;
+}
+
+.content h1{
+    font-family: "Simonetta", serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+    line-height: 50px;
+    letter-spacing: -0.800000011920929px;
+    text-align: left;
+}
+
+.content p{
+    width: 460px;
+    height: 75px;
+    top: 405px;
+    margin-top: 10px;
+    left: 140px;
+}
+
+.sign-up{
+    width: 580px;
+    height: 780px;
+    margin-left: 550px;
+    margin-top: -419px;
+    border-radius: 6px 0px 0px 0px;
+    border: 2px solid whitesmoke;
+    box-shadow: 10px 10px 10px whitesmoke;
+}
+
+.sign-in{
+    display: flex;
+}
+
+.first-name{
+    width: 244px;
+    height: 82px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.first-name input{
+    width: 238px;
+    height: 48px;
+    border: 2px solid lightgrey;
+}
+
+.last-name{
+    width: 244px;
+    height: 82px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.last-name input{
+    width: 238px;
+    height: 48px;
+    border: 2px solid lightgrey;
+}
+
+.gender{
+    width: 244px;
+    height: 82px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.gender input{
+    width: 238px;
+    height:48px;
+    border: 2px solid lightgrey;
+}
+
+.date{
+    width: 244px;
+    height: 82px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.date input{
+    width: 238px;
+    height: 48px;
+    border: 2px solid lightgrey;
+}
+
+.weight{
+    width: 244px;
+    height: 82px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.weight input{
+    width: 238px;
+    height: 48px;
+    border: 2px solid lightgrey;
+}
+
+.height{
+    width: 244px;
+    height: 82px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.height input{
+    width: 238px;
+    height: 48px;
+    border: 2px solid lightgrey;
+}
+
+.activity{
+    width: 500px;
+    height: 82px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.activity input{
+    width: 500px;
+    height: 48px;
+    border: 2px solid lightgrey;
+}
+
+.password{
+    width: 500px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.password input{
+    width: 500px;
+    height: 48px;
+    border: 2px solid lightgrey;
+}
+
+.button{
+    width: 500px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: rgb(85, 223, 85);
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: lightblue;
+}
+
+.sign-up p{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+p em{
+    color: lightseagreen;
+    text-decoration: underline;
+    font-style: normal;
+}
